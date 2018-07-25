@@ -7,3 +7,5 @@ Project Nodoze
 			cd Project-Nodoze
 			chmod 777 ./build.sh
 			sh ./build.sh
+
+			

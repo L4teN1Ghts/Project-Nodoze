@@ -151,8 +151,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT           = 5000;  // 5 seco
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                     = "e11dce7a95ab8f6dcfb8db0e4f3271ab9f811b9de11d79af489e2fa87bf8a877";
 
 const std::initializer_list<const char*> SEED_NODES = {
-	"sn1.pun-coin.com:35898",
-	//"sn2.pun-coin.com:35898",
+	//"sn1.pun-coin.com:35898",
+	"sn2.pun-coin.com:35898",
 	//"sn3.pun-coin.com:35898",
 	//"sn4.pun-coin.com:35898",
 	//"sn5.pun-coin.com:35898",

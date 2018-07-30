@@ -1,6 +1,6 @@
 Project Nodoze
 
-THIS IS IN TEST NET STAGE!!! NO CURRENCY MINED IS REAL!!!!
+THIS IS IN TEST NET STAGE!!! NO CURRENCY MINED IS REAL!!!!!
 
             sudo apt install gcc libboost-all-dev build-essential cmake pkg-config libssl-dev gpp 
 			

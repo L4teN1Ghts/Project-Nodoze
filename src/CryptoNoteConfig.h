@@ -152,7 +152,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                     = "e11dce7a95ab8f6
 
 const std::initializer_list<const char*> SEED_NODES = {
 	"sn1.pun-coin.com:35898",
-	"sn2.pun-coin.com:35898",
+	//"sn2.pun-coin.com:35898",
 	//"sn3.pun-coin.com:35898",
 	//"sn4.pun-coin.com:35898",
 	//"sn5.pun-coin.com:35898",

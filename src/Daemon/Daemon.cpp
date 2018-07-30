@@ -255,17 +255,7 @@ int main(int argc, char* argv[])
       logger(ERROR, BRIGHT_RED) << "Failed to initialize p2p server.";
       return 1;
     }
-    logger(INFO) << "
-	....................../´¯/) 
-....................,/¯../ 
-.................../..../ 
-............./´¯/'...'/´¯¯`·¸ 
-........../'/.../..../......./¨¯\ 
-........('(...´...´.... ¯~/'...') 
-.........\.................'...../ 
-..........''...\.......... _.·´ 
-............\..............( 
-..............\.............\...";
+    logger(INFO) << "P2p server initialized OK";
 
     //logger(INFO) << "Initializing core rpc server...";
     //if (!rpc_server.init(vm)) {

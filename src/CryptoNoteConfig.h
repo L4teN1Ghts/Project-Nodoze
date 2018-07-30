@@ -39,7 +39,7 @@ const uint64_t REAL_COINS_LIMITED_Z                           = UINT64_C(4568378
 const uint64_t REAL_COINS_LOWSPEED_Z                          = UINT64_C(18273515);
 const uint64_t MONEY_SUPPLY_MINEABLE_Z                        = REAL_COINS_LIMITED_Z*COIN;
 const uint64_t MONEY_SUPPLY_LOWSPEED_Z                        = REAL_COINS_LOWSPEED_Z*COIN;
-const size_t   RUSH_BLOCKS_Z                                  = 400;
+const size_t   RUSH_BLOCKS_Z                                  = 100;
 const uint64_t RUSH_REWARD_Z                                  = (UINT64_C(100)*COIN);
 const uint64_t COMMON_REWARD_Z                                = (UINT64_C(1)*COIN);
 const uint64_t GENESIS_BLOCK_REWARD_Z                         = (UINT64_C(10000000)*COIN);
@@ -110,10 +110,10 @@ const uint64_t REWARD_HALVING_INTERVAL                        = (UINT64_C(11000)
 const char     CRYPTONOTE_TICKER[]                            = "pun";
 const char     CRYPTONOTE_NAME[]                              = "Puncoin";
 
-const char GENESIS_COINBASE_TX_HEX[] = "010101ff00002101048653d2f5487922cba54f72abf3e4ffdba1acf26de4688ce372a5f4503bb038";
+const char GENESIS_COINBASE_TX_HEX[] = "010101ff000021012037acbd32277fd1b933172ca77901712f5c66d4c6ddce511a17c267158181d3";
 
 const uint32_t GENESIS_NONCE                                  = 666;
-const char     GENESIS_WALLET_Z[]                             = "Pun1uzM15CwP8DKXbP3Nzv6HEmaVJaHKaA17HF9UyLydV6vUAtzgpzT6fFiXidD28kHE4gt5uNeAyd1SsETe9Rv41KBhdWFNHC";
+const char     GENESIS_WALLET_Z[]                             = "Pun1VdKS1mkUtg3zTvMyqVXFrtjkjNen9dbcfeUaE7JpcTLbYFnSQ7BU4RA5Cn6CFF3NU7gfcFUkETcVmDNmYUPA4BvNbLJ4Gr";
 
 //CRYPTONOTE_NETWORK is defined @ \P2p\P2pNetworks.h
 //CRYPTONOTE_NETWORK UUID = 459daa40-d972-4ab2-97a6-51e28965bc16

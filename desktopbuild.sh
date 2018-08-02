@@ -3,4 +3,4 @@ sudo apt -y install gcc libboost-all-dev build-essential cmake pkg-config libssl
 
 make
 cd ../
-sudo chown -R $USERNAME:$USERNAME Project-Nodoze/
+sudo chown -R $SUDO_USER:$SUDO_USER Project-Nodoze/

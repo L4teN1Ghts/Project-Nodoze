@@ -1,5 +1,6 @@
 sudo apt update
 sudo apt -y install gcc libboost-all-dev build-essential cmake pkg-config libssl-dev gpp
+clear
 echo How many cores would you like to compile with?
 read CORE
 make -j $CORE

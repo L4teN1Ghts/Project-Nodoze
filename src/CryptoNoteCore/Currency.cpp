@@ -193,22 +193,22 @@ uint64_t Currency::Lottery(const Crypto::Hash lbh) const
 			}
 		case 4:
 			{
-				factor = 100;
+				factor = 10;
 				break;
 			}
 		case 5:
 			{
-				factor = 1000;
+				factor = 100;
 				break;
 			}
 		case 6:
 			{
-				factor = 10000;
+				factor = 1000;
 				break;
 			}
 		case 7:
 			{
-				factor = 100000;
+				factor = 10000;
 				break;
 			}
 	}		

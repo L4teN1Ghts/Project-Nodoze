@@ -1,4 +1,4 @@
-Project Nodoze | hidden edition
+Project Nodoze | hidden edition third edition
 
 THIS IS IN TEST NET STAGE!!! NO CURRENCY MINED IS REAL!!!!!
 

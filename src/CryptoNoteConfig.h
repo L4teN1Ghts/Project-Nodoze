@@ -43,7 +43,7 @@ const size_t   RUSH_BLOCKS_Z                                  = 100;
 const uint64_t RUSH_REWARD_Z                                  = (UINT64_C(100)*COIN);
 const uint64_t COMMON_REWARD_Z                                = (UINT64_C(1)*COIN);
 const uint64_t GENESIS_BLOCK_REWARD_Z                         = (UINT64_C(10000000)*COIN);
-const size_t   RUSH_REWARD_LOCK_Z                             = 750000;
+const size_t   RUSH_REWARD_LOCK_Z                             = 60500;  // premium reward lock time of 6 weeks
 
 const uint64_t DIFFICULTY_TARGET                              = 60;
 const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY              = 24 * 60 * 60 / DIFFICULTY_TARGET;
@@ -69,7 +69,7 @@ static_assert(DEPOSIT_MIN_TERM * DEPOSIT_MAX_TOTAL_RATE > DEPOSIT_MIN_TOTAL_RATE
 
 const size_t   MAX_BLOCK_SIZE_INITIAL                         = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE * 10;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR          = 100 * 1024;
-const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR        = 365 * 24 * 60 *60 / DIFFICULTY_TARGET;
+const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR        = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 
 const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_BLOCKS      = 1;
 const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_SECONDS     = DIFFICULTY_TARGET * CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_BLOCKS;
@@ -151,8 +151,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT           = 5000;  // 5 seco
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                     = "e11dce7a95ab8f6dcfb8db0e4f3271ab9f811b9de11d79af489e2fa87bf8a877";
 
 const std::initializer_list<const char*> SEED_NODES = {
-	"sn1.pun-coin.com:35898",
-	"sn2.pun-coin.com:35898",
+	//"sn1.pun-coin.com:35898",
+	//"sn2.pun-coin.com:35898",
 	//"sn3.pun-coin.com:35898",
 	//"sn4.pun-coin.com:35898",
 	//"sn5.pun-coin.com:35898",

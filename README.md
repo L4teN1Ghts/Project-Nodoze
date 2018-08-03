@@ -1,4 +1,4 @@
-Project Nodoze | hidden edition merge test
+Project Nodoze | hidden edition Master Edition
 
 THIS IS IN TEST NET STAGE!!! NO CURRENCY MINED IS REAL!!!!!
 
